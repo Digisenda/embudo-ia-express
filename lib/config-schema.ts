@@ -27,8 +27,8 @@ export const HeroConfigSchema = z.object({
   title: z.string().min(5, 'El título debe tener al menos 5 caracteres'),
   subtitle: z.string().min(10, 'El subtítulo debe tener al menos 10 caracteres'),
   ctaText: z.string().min(3, 'El texto del CTA debe tener al menos 3 caracteres'),
-  ctaUrl: z.string().url().optional(),
-  backgroundImage: z.string().url().optional(),
+  ctaUrl: z.string().url().optional().or(z.literal('')).optional(),
+  backgroundImage: z.string().url().optional().or(z.literal('')).optional(),
 });
 export type HeroConfig = z.infer<typeof HeroConfigSchema>;
 
@@ -37,7 +37,7 @@ export const FeatureSchema = z.string().min(5);
 
 // Configuración de proceso/steps
 export const ProcessStepSchema = z.object({
-  number: z.number().int().positive(),
+  number: z.number().int().positive().optional(),
   title: z.string().min(3),
   description: z.string().min(10),
   icon: z.string().optional(),
@@ -46,15 +46,16 @@ export type ProcessStep = z.infer<typeof ProcessStepSchema>;
 
 // Configuración de precios individual
 export const PricingTierSchema = z.object({
+  id: z.string().optional(),
   name: z.string().min(3),
-  price: z.string().min(1),
+  price: z.union([z.string().min(1), z.number()]).transform(val => String(val)),
   currency: z.string().default('USD'),
-  period: z.string().default('mes'),
+  period: z.string().optional(),
   description: z.string().optional(),
   features: z.array(z.string()),
   highlighted: z.boolean().default(false),
-  ctaText: z.string().default('Contratar'),
-  ctaUrl: z.string().url().optional(),
+  ctaText: z.string().optional(),
+  ctaUrl: z.string().url().optional().or(z.literal('')).optional(),
 });
 export type PricingTier = z.infer<typeof PricingTierSchema>;
 
@@ -110,6 +111,8 @@ export const ClientConfigSchema = z.object({
   logo: z
     .string()
     .url()
+    .optional()
+    .or(z.literal(''))
     .optional()
     .describe('URL del logo del cliente'),
 
@@ -168,7 +171,8 @@ export const ClientConfigSchema = z.object({
       title: z.string().optional(),
       description: z.string().optional(),
       keywords: z.array(z.string()).optional(),
-      ogImage: z.string().url().optional(),
+      url: z.string().url().optional().or(z.literal('')).optional(),
+      ogImage: z.string().url().optional().or(z.literal('')).optional(),
     })
     .optional()
     .describe('Configuración de SEO'),
@@ -176,14 +180,37 @@ export const ClientConfigSchema = z.object({
   // Redes sociales
   social: z
     .object({
-      facebook: z.string().url().optional(),
-      instagram: z.string().url().optional(),
-      twitter: z.string().url().optional(),
-      linkedin: z.string().url().optional(),
+      facebook: z.string().url().optional().or(z.literal('')).optional(),
+      instagram: z.string().url().optional().or(z.literal('')).optional(),
+      twitter: z.string().url().optional().or(z.literal('')).optional(),
+      linkedin: z.string().url().optional().or(z.literal('')).optional(),
     })
     .optional()
     .describe('Enlaces a redes sociales'),
-});
+
+  // Testimonios
+  testimonials: z.array(z.object({
+    name: z.string(),
+    role: z.string().optional(),
+    company: z.string().optional(),
+    comment: z.string(),
+    location: z.string().optional(),
+    avatar: z.string().url().optional().or(z.literal('')).optional(),
+    rating: z.number().min(1).max(5).optional(),
+  })).optional(),
+
+  // FAQ
+  faq: z.array(z.object({
+    question: z.string(),
+    answer: z.string(),
+  })).optional(),
+
+  // Flags adicionales
+  showHero: z.boolean().optional().default(true),
+  showFeatures: z.boolean().optional().default(true),
+
+  // Permitir campos adicionales sin validación estricta
+}).passthrough();
 
 export type ClientConfig = z.infer<typeof ClientConfigSchema>;
 
