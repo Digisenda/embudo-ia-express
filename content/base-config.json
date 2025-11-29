@@ -13,7 +13,9 @@
   "hero": {
     "title": "Llene su taller con clientes esta misma semana",
     "subtitle": "Embudo IA Express que trae llamadas y mensajes de WhatsApp en menos de 72 horas.",
-    "ctaText": "Quiero más clientes esta semana"
+    "ctaText": "Quiero más clientes esta semana",
+    "ctaUrl": "",
+    "backgroundImage": ""
   },
 
   "features": [
@@ -25,15 +27,18 @@
 
   "processSteps": [
     {
-      "title": "1. Llamada rápida",
+      "number": 1,
+      "title": "Llamada rápida",
       "description": "Revisamos tu negocio y vemos si el sistema aplica para ti."
     },
     {
-      "title": "2. Configuración del embudo",
+      "number": 2,
+      "title": "Configuración del embudo",
       "description": "Preparamos la landing, anuncios y mensajes automatizados."
     },
     {
-      "title": "3. Activación de campaña",
+      "number": 3,
+      "title": "Activación de campaña",
       "description": "Encendemos el tráfico y empiezan a entrar llamadas y mensajes."
     }
   ],
@@ -42,15 +47,18 @@
     {
       "id": "express",
       "name": "Plan Express",
-      "price": 497,
+      "price": "$497",
       "currency": "USD",
+      "period": "pago único",
       "description": "Implementación rápida para un solo servicio principal.",
       "features": [
         "Landing de alta conversión",
         "Mensajes automatizados básicos",
         "Configuración inicial de campaña"
       ],
-      "highlighted": true
+      "highlighted": true,
+      "ctaText": "Contratar ahora",
+      "ctaUrl": ""
     }
   ],
 
