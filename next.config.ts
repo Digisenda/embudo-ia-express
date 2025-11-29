@@ -2,7 +2,6 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-
   images: {
     remotePatterns: [
       {
@@ -10,11 +9,6 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
     ],
-  },
-
-  // ⬇️ Desactivar ESLint en builds (sin afectar el dev)
-  eslint: {
-    ignoreDuringBuilds: true,
   },
 };
 
