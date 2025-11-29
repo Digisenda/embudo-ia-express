@@ -1,0 +1,116 @@
+{
+  "express": {
+    "tiers": [
+      {
+        "name": "Plan Express",
+        "price": "$497",
+        "currency": "USD",
+        "period": "pago único",
+        "description": "Todo lo necesario para empezar a generar clientes",
+        "features": [
+          "Landing page personalizada",
+          "Integración con WhatsApp",
+          "Instalación en 72 horas",
+          "Soporte por 30 días",
+          "Optimización SEO básica"
+        ],
+        "highlighted": true,
+        "ctaText": "Empezar ahora",
+        "ctaUrl": ""
+      }
+    ]
+  },
+  "pro": {
+    "tiers": [
+      {
+        "name": "Plan Express",
+        "price": "$497",
+        "currency": "USD",
+        "period": "pago único",
+        "description": "Ideal para empezar",
+        "features": [
+          "Landing page personalizada",
+          "Integración con WhatsApp",
+          "Instalación en 72 horas",
+          "Soporte por 30 días"
+        ],
+        "highlighted": false,
+        "ctaText": "Empezar",
+        "ctaUrl": ""
+      },
+      {
+        "name": "Plan Pro",
+        "price": "$997",
+        "currency": "USD",
+        "period": "pago único",
+        "description": "Para negocios que quieren crecer rápido",
+        "features": [
+          "Todo lo del Plan Express",
+          "Sección de testimonios",
+          "Diseño premium personalizado",
+          "SEO avanzado",
+          "Soporte por 90 días",
+          "Optimización de conversión"
+        ],
+        "highlighted": true,
+        "ctaText": "Elegir Pro",
+        "ctaUrl": ""
+      }
+    ]
+  },
+  "monthly": {
+    "tiers": [
+      {
+        "name": "Plan Express",
+        "price": "$497",
+        "currency": "USD",
+        "period": "pago único",
+        "description": "Ideal para empezar",
+        "features": [
+          "Landing page personalizada",
+          "Integración con WhatsApp",
+          "Instalación en 72 horas",
+          "Soporte por 30 días"
+        ],
+        "highlighted": false,
+        "ctaText": "Empezar",
+        "ctaUrl": ""
+      },
+      {
+        "name": "Plan Pro",
+        "price": "$997",
+        "currency": "USD",
+        "period": "pago único",
+        "description": "Para negocios en crecimiento",
+        "features": [
+          "Todo lo del Plan Express",
+          "Sección de testimonios",
+          "Diseño premium",
+          "SEO avanzado",
+          "Soporte por 90 días"
+        ],
+        "highlighted": false,
+        "ctaText": "Elegir Pro",
+        "ctaUrl": ""
+      },
+      {
+        "name": "Plan Monthly",
+        "price": "$297",
+        "currency": "USD",
+        "period": "mes",
+        "description": "Gestión continua y reportes mensuales",
+        "features": [
+          "Todo lo del Plan Pro",
+          "Reportes mensuales de rendimiento",
+          "Ajustes y optimizaciones continuas",
+          "Análisis de métricas",
+          "Soporte prioritario 24/7",
+          "Actualizaciones de contenido"
+        ],
+        "highlighted": true,
+        "ctaText": "Elegir Monthly",
+        "ctaUrl": ""
+      }
+    ]
+  }
+}

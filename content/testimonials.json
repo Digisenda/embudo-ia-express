@@ -1,0 +1,28 @@
+{
+  "testimonials": [
+    {
+      "name": "Carlos Rodríguez",
+      "role": "Dueño",
+      "company": "Taller Rodríguez",
+      "content": "En 2 semanas recuperé la inversión. Ahora tengo clientes todos los días y mi taller está lleno. Lo recomiendo 100%.",
+      "rating": 5,
+      "avatar": ""
+    },
+    {
+      "name": "María González",
+      "role": "Gerente",
+      "company": "AutoService Pro",
+      "content": "El sistema es muy fácil de usar. Los clientes llegan directamente por WhatsApp y son personas realmente interesadas en nuestros servicios.",
+      "rating": 5,
+      "avatar": ""
+    },
+    {
+      "name": "Juan Martínez",
+      "role": "Propietario",
+      "company": "Mecánica Martínez",
+      "content": "Antes dependía solo del boca a boca. Ahora tengo un flujo constante de clientes nuevos cada semana. Increíble inversión.",
+      "rating": 5,
+      "avatar": ""
+    }
+  ]
+}
