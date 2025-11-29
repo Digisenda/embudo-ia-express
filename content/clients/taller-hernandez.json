@@ -1,0 +1,86 @@
+{
+  "clientId": "taller-hernandez-001",
+  "deployUrl": "https://taller-hernandez.embudoexpress.com",
+  "level": "express",
+  "businessName": "Taller Hernández",
+  "phone": "+12105551234",
+  "whatsapp": "https://wa.me/12105551234?text=Hola,%20quiero%20información%20sobre%20sus%20servicios",
+  "email": "contacto@tallerhernandez.com",
+  "service": "Reparación de frenos y alineación profesional",
+  "theme": "dark",
+  "customDomain": false,
+  "logo": "",
+  "hero": {
+    "title": "Llene su taller esta misma semana",
+    "subtitle": "Sistema automático que trae clientes reales por WhatsApp en 72 horas",
+    "ctaText": "Quiero clientes esta semana",
+    "ctaUrl": "",
+    "backgroundImage": ""
+  },
+  "showTestimonials": false,
+  "showProcess": true,
+  "showPricing": true,
+  "showFaq": false,
+  "showReports": false,
+  "features": [
+    "Clientes directos a su WhatsApp",
+    "Instalación en 72 horas garantizada",
+    "Sin necesidad de conocimientos técnicos",
+    "Sistema probado en talleres mecánicos"
+  ],
+  "processSteps": [
+    {
+      "number": 1,
+      "title": "Análisis de su taller",
+      "description": "Entendemos sus servicios, ubicación y tipo de clientes que busca"
+    },
+    {
+      "number": 2,
+      "title": "Configuración personalizada",
+      "description": "Adaptamos el sistema para atraer clientes locales interesados en frenos y alineación"
+    },
+    {
+      "number": 3,
+      "title": "Activación en 72 horas",
+      "description": "Su taller comienza a recibir solicitudes de clientes calificados por WhatsApp"
+    }
+  ],
+  "pricingTable": "basic-only",
+  "pricingTiers": [
+    {
+      "name": "Plan Taller Express",
+      "price": "$497",
+      "currency": "USD",
+      "period": "pago único",
+      "description": "Todo lo que necesita para llenar su taller de clientes",
+      "features": [
+        "Landing page personalizada para su taller",
+        "Integración directa con su WhatsApp",
+        "Instalación completa en 72 horas",
+        "Optimización para clientes locales",
+        "Soporte técnico por 30 días"
+      ],
+      "highlighted": true,
+      "ctaText": "Quiero más clientes ahora",
+      "ctaUrl": ""
+    }
+  ],
+  "seo": {
+    "title": "Taller Hernández - Reparación de Frenos y Alineación",
+    "description": "Sistema automático que llena su taller mecánico con clientes reales. Especialistas en frenos y alineación. Resultados en 72 horas.",
+    "keywords": [
+      "taller mecánico",
+      "reparación de frenos",
+      "alineación",
+      "servicio automotriz",
+      "taller confiable"
+    ],
+    "ogImage": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": ""
+  }
+}

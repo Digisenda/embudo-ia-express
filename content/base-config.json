@@ -1,0 +1,80 @@
+{
+  "clientId": "plantilla-base",
+  "deployUrl": "",
+  "level": "express",
+  "businessName": "Mi Negocio",
+  "phone": "",
+  "whatsapp": "",
+  "email": "",
+  "service": "Descripción del servicio que ofreces",
+  "theme": "light",
+  "customDomain": false,
+  "logo": "",
+  "hero": {
+    "title": "Consigue más clientes para tu negocio",
+    "subtitle": "Sistema automático que genera clientes calificados en menos de 72 horas",
+    "ctaText": "Quiero más clientes",
+    "ctaUrl": "",
+    "backgroundImage": ""
+  },
+  "showTestimonials": false,
+  "showProcess": true,
+  "showPricing": true,
+  "showFaq": false,
+  "showReports": false,
+  "features": [
+    "Clientes directos a tu WhatsApp",
+    "Instalación en 72 horas",
+    "Sin conocimientos técnicos necesarios",
+    "Soporte personalizado incluido"
+  ],
+  "processSteps": [
+    {
+      "number": 1,
+      "title": "Contacto inicial",
+      "description": "Nos ponemos en contacto contigo para entender las necesidades de tu negocio"
+    },
+    {
+      "number": 2,
+      "title": "Configuración",
+      "description": "Personalizamos el sistema según tu industria y público objetivo"
+    },
+    {
+      "number": 3,
+      "title": "Lanzamiento",
+      "description": "Activamos tu embudo y comienzas a recibir clientes en 72 horas"
+    }
+  ],
+  "pricingTable": "basic-only",
+  "pricingTiers": [
+    {
+      "name": "Plan Express",
+      "price": "$497",
+      "currency": "USD",
+      "period": "pago único",
+      "description": "Todo lo necesario para empezar a generar clientes",
+      "features": [
+        "Landing page personalizada",
+        "Integración con WhatsApp",
+        "Instalación en 72 horas",
+        "Soporte por 30 días",
+        "Optimización SEO básica"
+      ],
+      "highlighted": true,
+      "ctaText": "Empezar ahora",
+      "ctaUrl": ""
+    }
+  ],
+  "seo": {
+    "title": "",
+    "description": "",
+    "keywords": [],
+    "ogImage": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": ""
+  }
+}
