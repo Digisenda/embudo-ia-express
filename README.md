@@ -451,3 +451,28 @@ Para dudas sobre este proyecto, contactar al equipo de desarrollo de Digisenda.
 ---
 
 **Hecho con ❤️ por el equipo de Digisenda**
+
+---
+
+## 🔀 Git Workflow y Branching
+
+### Ramas principales
+
+- **`main`**: Rama estable oficial. Código listo para producción y base para nuevas features.
+- **`genspark_ai_developer`**: Rama de trabajo activa para desarrollo y experimentación.
+- **`template-v1`**: Rama de referencia que apunta a la Plantilla Base v1 (tag `v1.0.0-template`).
+
+### Tags
+
+- **`v1.0.0-template`**: Primera versión estable de la plantilla base. Punto de referencia congelado.
+
+### Flujo recomendado
+
+1. Crear rama desde `main`: `git checkout -b feat/nueva-feature` o `git checkout -b fix/correccion`
+2. Desarrollar y commitear cambios
+3. Crear Pull Request hacia `main`
+4. Revisar, aprobar y mergear
+5. La rama temporal se elimina después del merge
+
+📄 Más detalles en [docs/BRANCHING_STRATEGY.md](docs/BRANCHING_STRATEGY.md)
+
