@@ -1,80 +1,103 @@
 {
-  "clientId": "plantilla-base1",
-  "deployUrl": "",
+  "clientId": "demo-template",
+  "deployUrl": "https://embudo-ia-express-demo.vercel.app",
   "level": "express",
-  "businessName": "Mi Negocio",
-  "phone": "",
-  "whatsapp": "",
-  "email": "",
-  "service": "Descripción del servicio que ofreces",
+  "businessName": "Taller Hernández",
+  "service": "Reparación y mantenimiento automotriz",
+  "phone": "+12105550123",
+  "whatsapp": "https://wa.me/12105550123",
+  "email": "demo@embudoiaexpress.com",
   "theme": "light",
   "customDomain": false,
-  "logo": "",
+
   "hero": {
-    "title": "Consigue más clientes para tu negocio",
-    "subtitle": "Sistema automático que genera clientes calificados en menos de 72 horas",
-    "ctaText": "Quiero más clientes",
+    "title": "Llene su taller con clientes esta misma semana",
+    "subtitle": "Embudo IA Express que trae llamadas y mensajes de WhatsApp en menos de 72 horas.",
+    "ctaText": "Quiero más clientes esta semana",
     "ctaUrl": "",
     "backgroundImage": ""
   },
-  "showTestimonials": false,
-  "showProcess": true,
-  "showPricing": true,
-  "showFaq": false,
-  "showReports": false,
+
   "features": [
-    "Clientes directos a tu WhatsApp",
-    "Instalación en 72 horas",
-    "Sin conocimientos técnicos necesarios",
-    "Soporte personalizado incluido"
+    "Embudo listo en 72 horas",
+    "Integración directa con WhatsApp",
+    "Anuncios optimizados para hispanos en EE.UU.",
+    "Sin contratos largos ni sistemas complicados"
   ],
+
   "processSteps": [
     {
       "number": 1,
-      "title": "Contacto inicial",
-      "description": "Nos ponemos en contacto contigo para entender las necesidades de tu negocio"
+      "title": "Llamada rápida",
+      "description": "Revisamos tu negocio y vemos si el sistema aplica para ti."
     },
     {
       "number": 2,
-      "title": "Configuración",
-      "description": "Personalizamos el sistema según tu industria y público objetivo"
+      "title": "Configuración del embudo",
+      "description": "Preparamos la landing, anuncios y mensajes automatizados."
     },
     {
       "number": 3,
-      "title": "Lanzamiento",
-      "description": "Activamos tu embudo y comienzas a recibir clientes en 72 horas"
+      "title": "Activación de campaña",
+      "description": "Encendemos el tráfico y empiezan a entrar llamadas y mensajes."
     }
   ],
-  "pricingTable": "basic-only",
+
   "pricingTiers": [
     {
+      "id": "express",
       "name": "Plan Express",
       "price": "$497",
       "currency": "USD",
       "period": "pago único",
-      "description": "Todo lo necesario para empezar a generar clientes",
+      "description": "Implementación rápida para un solo servicio principal.",
       "features": [
-        "Landing page personalizada",
-        "Integración con WhatsApp",
-        "Instalación en 72 horas",
-        "Soporte por 30 días",
-        "Optimización SEO básica"
+        "Landing de alta conversión",
+        "Mensajes automatizados básicos",
+        "Configuración inicial de campaña"
       ],
       "highlighted": true,
-      "ctaText": "Empezar ahora",
+      "ctaText": "Contratar ahora",
       "ctaUrl": ""
     }
   ],
+
+  "testimonials": [
+    {
+      "name": "Carlos M.",
+      "role": "Dueño de taller",
+      "comment": "En la primera semana ya teníamos más llamadas que en todo el mes anterior.",
+      "location": "Houston, TX"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "¿En cuánto tiempo veo resultados?",
+      "answer": "Normalmente los primeros mensajes y llamadas llegan en los primeros 3 a 7 días, dependiendo del presupuesto de anuncios."
+    },
+    {
+      "question": "¿Tengo que firmar contrato?",
+      "answer": "No. El plan Express es un pago único por implementación."
+    }
+  ],
+
+  "showHero": true,
+  "showFeatures": true,
+  "showProcess": true,
+  "showPricing": true,
+  "showTestimonials": true,
+  "showFaq": true,
+  "showReports": false,
+
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": [],
-    "ogImage": ""
+    "title": "Embudo IA Express para Taller Automotriz",
+    "description": "Sistema rápido de generación de clientes para talleres automotrices hispanos en EE.UU. usando embudos y campañas con IA.",
+    "url": "https://embudo-ia-express-demo.vercel.app"
   },
+
   "social": {
-    "facebook": "",
-    "instagram": "",
-    "twitter": "",
-    "linkedin": ""
+    "facebook": "https://facebook.com/embudoiaexpress",
+    "instagram": "https://instagram.com/embudoiaexpress"
   }
 }

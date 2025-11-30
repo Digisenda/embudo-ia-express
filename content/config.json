@@ -1,86 +1,103 @@
 {
-  "clientId": "taller-hernandez-001",
-  "deployUrl": "https://taller-hernandez.embudoexpress.com",
+  "clientId": "demo-template",
+  "deployUrl": "https://embudo-ia-express-demo.vercel.app",
   "level": "express",
   "businessName": "Taller Hernández",
-  "phone": "+12105551234",
-  "whatsapp": "https://wa.me/12105551234?text=Hola,%20quiero%20información%20sobre%20sus%20servicios",
-  "email": "contacto@tallerhernandez.com",
-  "service": "Reparación de frenos y alineación profesional",
-  "theme": "dark",
+  "service": "Reparación y mantenimiento automotriz",
+  "phone": "+12105550123",
+  "whatsapp": "https://wa.me/12105550123",
+  "email": "demo@embudoiaexpress.com",
+  "theme": "light",
   "customDomain": false,
-  "logo": "",
+
   "hero": {
-    "title": "Llene su taller esta misma semana",
-    "subtitle": "Sistema automático que trae clientes reales por WhatsApp en 72 horas",
-    "ctaText": "Quiero clientes esta semana",
+    "title": "Llene su taller con clientes esta misma semana",
+    "subtitle": "Embudo IA Express que trae llamadas y mensajes de WhatsApp en menos de 72 horas.",
+    "ctaText": "Quiero más clientes esta semana",
     "ctaUrl": "",
     "backgroundImage": ""
   },
-  "showTestimonials": false,
-  "showProcess": true,
-  "showPricing": true,
-  "showFaq": false,
-  "showReports": false,
+
   "features": [
-    "Clientes directos a su WhatsApp",
-    "Instalación en 72 horas garantizada",
-    "Sin necesidad de conocimientos técnicos",
-    "Sistema probado en talleres mecánicos"
+    "Embudo listo en 72 horas",
+    "Integración directa con WhatsApp",
+    "Anuncios optimizados para hispanos en EE.UU.",
+    "Sin contratos largos ni sistemas complicados"
   ],
+
   "processSteps": [
     {
       "number": 1,
-      "title": "Análisis de su taller",
-      "description": "Entendemos sus servicios, ubicación y tipo de clientes que busca"
+      "title": "Llamada rápida",
+      "description": "Revisamos tu negocio y vemos si el sistema aplica para ti."
     },
     {
       "number": 2,
-      "title": "Configuración personalizada",
-      "description": "Adaptamos el sistema para atraer clientes locales interesados en frenos y alineación"
+      "title": "Configuración del embudo",
+      "description": "Preparamos la landing, anuncios y mensajes automatizados."
     },
     {
       "number": 3,
-      "title": "Activación en 72 horas",
-      "description": "Su taller comienza a recibir solicitudes de clientes calificados por WhatsApp"
+      "title": "Activación de campaña",
+      "description": "Encendemos el tráfico y empiezan a entrar llamadas y mensajes."
     }
   ],
-  "pricingTable": "basic-only",
+
   "pricingTiers": [
     {
-      "name": "Plan Taller Express",
+      "id": "express",
+      "name": "Plan Express",
       "price": "$497",
       "currency": "USD",
       "period": "pago único",
-      "description": "Todo lo que necesita para llenar su taller de clientes",
+      "description": "Implementación rápida para un solo servicio principal.",
       "features": [
-        "Landing page personalizada para su taller",
-        "Integración directa con su WhatsApp",
-        "Instalación completa en 72 horas",
-        "Optimización para clientes locales",
-        "Soporte técnico por 30 días"
+        "Landing de alta conversión",
+        "Mensajes automatizados básicos",
+        "Configuración inicial de campaña"
       ],
       "highlighted": true,
-      "ctaText": "Quiero más clientes ahora",
+      "ctaText": "Contratar ahora",
       "ctaUrl": ""
     }
   ],
+
+  "testimonials": [
+    {
+      "name": "Carlos M.",
+      "role": "Dueño de taller",
+      "comment": "En la primera semana ya teníamos más llamadas que en todo el mes anterior.",
+      "location": "Houston, TX"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "¿En cuánto tiempo veo resultados?",
+      "answer": "Normalmente los primeros mensajes y llamadas llegan en los primeros 3 a 7 días, dependiendo del presupuesto de anuncios."
+    },
+    {
+      "question": "¿Tengo que firmar contrato?",
+      "answer": "No. El plan Express es un pago único por implementación."
+    }
+  ],
+
+  "showHero": true,
+  "showFeatures": true,
+  "showProcess": true,
+  "showPricing": true,
+  "showTestimonials": true,
+  "showFaq": true,
+  "showReports": false,
+
   "seo": {
-    "title": "Taller Hernández - Reparación de Frenos y Alineación",
-    "description": "Sistema automático que llena su taller mecánico con clientes reales. Especialistas en frenos y alineación. Resultados en 72 horas.",
-    "keywords": [
-      "taller mecánico",
-      "reparación de frenos",
-      "alineación",
-      "servicio automotriz",
-      "taller confiable"
-    ],
-    "ogImage": ""
+    "title": "Embudo IA Express para Taller Automotriz",
+    "description": "Sistema rápido de generación de clientes para talleres automotrices hispanos en EE.UU. usando embudos y campañas con IA.",
+    "url": "https://embudo-ia-express-demo.vercel.app"
   },
+
   "social": {
-    "facebook": "",
-    "instagram": "",
-    "twitter": "",
-    "linkedin": ""
+    "facebook": "https://facebook.com/embudoiaexpress",
+    "instagram": "https://instagram.com/embudoiaexpress"
   }
 }
